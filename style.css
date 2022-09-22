@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     background-color:darksalmon;
 }
 
@@ -12,10 +12,12 @@ a {
 
 
 h1 {
+    width: 100%;
     margin: 0;
-    padding: 15px;
+    padding: 15px 0 15px 0;
     text-align: center;
     background-color:bisque;
+    box-shadow: 0 3px 20px brown;
 }
 
 .title {
@@ -26,13 +28,13 @@ h1 {
 img {
     height: 380px;
     width: 400px;
-    border: 1px solid rgb(205, 119, 91);
+    border: 2px solid rgb(205, 119, 91);
     border-radius: 10px;
 }
 
 .recipe {
     
-    margin: 2rem 2rem 2rem 2rem;
+    margin: 1.5rem 1rem 1rem 1rem;
     background-color: bisque;
     height: 580px;
     width: 460px;
@@ -55,13 +57,17 @@ img {
 }
 
  button {
+    color: brown;
+    font-weight: 600;
+    font-size: 17px;
     background-color: darksalmon;
-    padding: 12px 175px;
+    padding: 15px 165px;
     border: 2px solid rgb(205, 119, 91);
     border-radius: 10px;
     cursor: pointer;
  }
 
 button:hover {
+    color: rgb(164, 61, 61);
     background-color: rgb(236, 159, 134);
 }
