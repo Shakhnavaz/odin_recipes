@@ -1,3 +1,3 @@
 # odin_recipes
-recipe website
+my first project
 site with recipes

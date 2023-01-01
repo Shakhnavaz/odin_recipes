@@ -1,0 +1,45 @@
+body {
+  background-color: darksalmon;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  width: 100%;
+  margin: 0;
+  padding: 15px 0 15px 0;
+  text-align: center;
+  background-color: bisque;
+  box-shadow: 0 3px 20px brown;
+}
+
+h2 {
+  margin: 15px;
+}
+
+.container {
+  background-color: bisque;
+  height: 100%;
+  width: 100;
+  margin: 18px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 15px brown;
+}
+
+img {
+  border-radius: 20px;
+  border: 2px solid brown;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  padding: 4px;
+  font-size: 18px;
+  font-weight: 600;
+}
